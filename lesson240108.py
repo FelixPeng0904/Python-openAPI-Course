@@ -5,5 +5,4 @@ print("Hello! Python!")
 print("Taiwan No. 1")
 i=1
 j=2
-
-test
+print("taiwan no.",i)
