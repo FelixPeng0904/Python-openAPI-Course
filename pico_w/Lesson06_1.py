@@ -9,5 +9,7 @@ while True:
     led25.value(0)
     time.sleep(5)
     
+    start = time.ticks()
+    delta = time.ticks_diff(time.ticks(),start)
     
     
