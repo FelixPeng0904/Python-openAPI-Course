@@ -14,12 +14,12 @@ while True:
         start_ticks1 = time.ticks_ms()
         ledStatus = not ledStatus
         led25.value(ledStatus)
-    if time.ticks_diff(time.ticks_ms(),start_ticks1) >= 5000:
+    if time.ticks_diff(time.ticks_ms(),start_ticks2) >= 5000:
         print("pass 5 second")
         start_ticks2 = time.ticks_ms()
         ledStatus = not ledStatus
         led25.value(ledStatus)
-    if time.ticks_diff(time.ticks_ms(),start_ticks1) >= 10000:
+    if time.ticks_diff(time.ticks_ms(),start_ticks3) >= 10000:
         print("pass 10 second")
         start_ticks3 = time.ticks_ms()
         ledStatus = not ledStatus
