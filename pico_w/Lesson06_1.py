@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import machine
 import time
 from machine import Pin
@@ -13,3 +14,7 @@ while True:
     delta = time.ticks_diff(time.ticks(),start)
     
     
+=======
+name = input("please input your name:")
+print(name)
+>>>>>>> ab32329f91aed19a41dda2ec2076e96ad7dee5d6
