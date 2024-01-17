@@ -28,6 +28,7 @@ def alert(temp):
                 print("傳送訊息")
             else:
                 print("傳送失敗(make服務出問題)")
+            response.close()
         start_time = time.ticks_ms()
 
 def second1(t):
