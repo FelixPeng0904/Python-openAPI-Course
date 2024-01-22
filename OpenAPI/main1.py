@@ -11,3 +11,7 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
+
+@app.get("/items/{item_id}")
+async def get_item(item_id:int):
+    print(f"使用者輸入了:{}")
